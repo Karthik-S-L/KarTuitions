@@ -1,0 +1,61 @@
+#navbar{
+    padding: 3px 4px;
+    background-color: black;
+    
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px 4px;
+}
+
+#navbar li{
+    list-style: none;
+   
+}
+#navbar li :hover{
+    color: rgb(72, 20, 20);
+    background-color: #c0daeb;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 3px 12px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    text-align: center;
+    background-color: #c0daeb;
+    color: rgb(72, 20, 20);
+    padding: 10px;
+}
+.container{
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    background: url(../static/booksbg.jpg);
+}
+.box{
+    display: flex;
+    border: 4px solid rgb(72, 20, 20);
+    border-radius: 10px;
+    margin: 96px 17px;
+    text-align: initial;
+    height: 229px;
+    width: 593px;
+    font-size: 23px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.5);
+    flex-direction: column;
+}
+.box li{
+    list-style: none;
+    margin: 2px;
+}
+
+
+

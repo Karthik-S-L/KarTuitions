@@ -1,0 +1,42 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top 
+        ul
+            li #[a(href="#") Home ]
+            li #[a(href="#") Services] 
+            li #[a(href="#") Locations] 
+            li #[a(href="#") Faculty]
+            li #[a(href="#") Carrers]
+            li #[a(href="#") Contact us]
+            
+    section#introSection.intro
+        div#introp1 Kar Tutions 
+        div#introp2 Making you the best version of yourself
+    section#missionSection.mission
+        h2#misp1 Our Missions
+        div.card
+          h3 Inspire 
+          p We ensure that we can create an environment that will be inspiring to our students to attain the highest possible results.
+        div.card
+          h3 Focus 
+          p  Providing comprehensive and individually focused learning that prepares students of all ages for academic and life success.
+        div.card
+          h3 Empower 
+          p  To Empower students to build stronger concepts to make them more confident to face any academic challenges in the future.
+          
+
+    section#sponserSection 
+        div#sponserp1 Our Sponsers
+        div#sponsers
+          img(src="../static/logo1.png", alt="Byju's",class=spimage)
+          img(src="../static/logo2.png", alt="Huawei",class=spimage)
+          img(src="../static/logo3.png", alt="mlearn",class=spimage)
+          img(src="../static/logo4.png", alt="samsung",class=spimage)
+    footer#footer 
+        | Copyright ©  2021 KarTutions.com | All rights reserver
+    script
+      include ../static/index.js

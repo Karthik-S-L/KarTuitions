@@ -1,0 +1,91 @@
+
+#navbar{
+    padding: 3px 4px;
+    background-color: black;
+    
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px 4px;
+}
+
+#navbar li{
+    list-style: none;
+   
+}
+#navbar li :hover{
+    color: rgb(72, 20, 20);
+    background-color: #c0daeb;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 3px 12px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    text-align: center;
+    background-color: #c0daeb;
+    color: rgb(72, 20, 20);
+    padding: 10px;
+    
+}
+h2{
+    display: flex;
+    text-align: center;
+    background-color: rgba(246, 255, 255,);
+    color: #472027;
+    padding: 6px;
+    text-shadow: beige;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    background-color: #78b5dc;
+    padding: 5px;
+    margin: 0px 394px;
+    border: 10px;
+    margin-top: -10px;
+}
+
+.container{
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    background: url(../static/booksbg.jpg);
+    flex-direction: column;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    align-items: center;
+}
+.myForm input{
+    width:400px;
+    margin:9px;
+    padding:9px;
+    border:2px solid rgb(72, 20, 20);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.5);
+}
+.myForm ::placeholder{
+    color: rgb(72, 20, 20);
+}
+
+.btn{
+    padding:7px 16px;
+    font-size: 18px;
+    border:2px solid rgb(72, 20, 20);
+    border-radius: 10px;
+    color: rgb(72, 20, 20);
+    background-color: #c0daeb;
+    cursor: pointer;
+}
+

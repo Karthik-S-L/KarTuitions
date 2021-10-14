@@ -1,0 +1,33 @@
+extends base.pug
+
+block scripts 
+    script(src="../static/index.js")
+
+block style
+    style
+        include ../static/style.css
+        include ../static/stylelocations.css
+        include ../static/stylefaculty.css
+block content 
+    h1 Locations
+    div.container
+        div.box
+            h2 Bengaluru 
+            ul
+                li Prof.Ganesh (RR nagar)
+                li Prof.Ramesh (RR nagar)
+                li Prof.Ramya  (Kengeri)
+                li Prof.Rajesh (Kengeri)
+        div.box
+            h2 Mysore 
+            ul
+                li Prof.Srinidhi (Shantinagar)
+                li Prof.Umesh (Shantinagar)
+                li Prof.Sridevi  (Shantinagar)
+                
+        div.box
+            h2 Sagar 
+            ul
+                li Prof.Satish (Vijayanagar)
+                li Prof.Ryan (Vijayanagar)
+                li Prof.Nischal  (Vijayanagar)
